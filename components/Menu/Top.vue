@@ -55,7 +55,7 @@ ul.nav {
 ul.nav > li > a {
   @apply text-gray-300 hover:text-gray-50;
 }
-ul.nav > li > a.router-link-active {
-  @apply text-primary-400;
-}
+/*ul.nav > li > a.router-link-active {*/
+/*  @apply text-primary-400;*/
+/*}*/
 </style>
