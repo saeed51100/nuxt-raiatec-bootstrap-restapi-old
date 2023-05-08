@@ -15,4 +15,5 @@ export default defineNuxtConfig({
         // This line has conflict with devtools. resolve it later. saeed.doc
         // {src: "~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", mode: "client"}
     ],
+    modules: ["@nuxtjs/tailwindcss"],
 })
