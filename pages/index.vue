@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { data: posts }=await useFetch<any>(
+const {data: posts} = await useFetch<any>(
     "http://localhost/test.raiatec.com/wp-json/wp/v2/posts"
 );
 
