@@ -5,18 +5,19 @@ const {data: posts} = await useFetch<any>(
 
 </script>
 <template>
-  <TheHeader></TheHeader>
-  <div class="m-5">
-    <div class="btn btn-success">Success</div>
-  </div>
-  <h1>
-    elon musk !!!
-  </h1>
-  <Post
-      v-for="post in posts"
-      :key="post.id"
-      :title="post.title.rendered"
-      :excerpt="post.excerpt.rendered"
-      :slug="post.slug"
-  ></Post>
+  <main>
+    <div class="m-5">
+      <div class="btn btn-success">Success</div>
+    </div>
+    <h1>
+      elon musk !!!
+    </h1>
+    <Post
+        v-for="post in posts"
+        :key="post.id"
+        :title="post.title.rendered"
+        :excerpt="post.excerpt.rendered"
+        :slug="post.slug"
+    ></Post>
+  </main>
 </template>
